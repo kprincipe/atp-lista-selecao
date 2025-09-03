@@ -5,18 +5,20 @@ int main(void) {
     char a,b,c,d,e; // ASDFG
 
     // entrada de dados
-    printf("Digite o caracter 1: ");
+    printf("Primeiro digito : ");
     scanf("%s", &a);
-    printf("Digite a senha: ");
+    printf("Segundo digito  : ");
     scanf("%s", &b);
-    printf("Digite a senha: ");
+    printf("Terceiro digito : ");
     scanf("%s", &c);
-    printf("Digite a senha: ");
+    printf("Quarto digito   : ");
     scanf("%s", &d);
-    printf("Digite a senha: ");
+    printf("Quinto digito   : ");
     scanf("%s", &e);
 
     // processamento e validacao dos dados inseridos e saida
+    printf("\n");
+    printf("================\n");
     if (a == 'A') {
         if (b == 'S') {
             if (c == 'D') {
@@ -38,6 +40,7 @@ int main(void) {
     } else {
         printf("Acesso negado!\n");
     }
+    printf("================\n");
     
     return 0;
 }
