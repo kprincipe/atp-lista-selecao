@@ -31,8 +31,10 @@ int main(void) {
             printf("Digite a ordem: ");
             scanf("%d", &op);
 
+            printf("----------------\n");
             if (op == 1) printf("Leao\n");
             if (op == 2) printf("Cavalo\n");
+            printf("----------------\n");
             break;
         case 2:
             printf("\n");
@@ -41,17 +43,25 @@ int main(void) {
             printf("Digite a ordem: ");
             scanf("%d", &op);
 
+            printf("----------------\n");
             if (op == 1) printf("Homem\n");
             if (op == 2) printf("Macaco\n");
+            printf("----------------\n");
             break;
         case 3:
+            printf("----------------\n");
             printf("Morcego\n");
+            printf("----------------\n");
             break;
         case 4:
+            printf("----------------\n");
             printf("Baleia\n");
+            printf("----------------\n");
             break;
         default:
+            printf("----------------\n");
             printf("Tipo desconhecido\n");
+            printf("----------------\n");
             return 1;
         }
         break;
@@ -71,17 +81,26 @@ int main(void) {
             printf("(2) Polar\n");
             printf("Digite a ordem: ");
             scanf("%d", &op);
-            
+
+            printf("----------------\n");
             if (op == 1) printf("Avestruz\n");
             if (op == 2) printf("Pinguim");
+            printf("----------------\n");
             break;
         case 2:
+            printf("----------------\n");
             printf("Pato\n");
+            printf("----------------\n");
             break;
         case 3:
+            printf("----------------\n");
             printf("Aguia\n");
+            printf("----------------\n");
+            break;
         default:
+            printf("----------------\n");
             printf("Classe desconhecida\n");
+            printf("----------------\n");
             return 1;
         }
         break;
@@ -94,12 +113,16 @@ int main(void) {
         
         scanf("%d", &op);
 
+        printf("----------------\n");
         if (op == 1) printf("Tartaruga\n");
         if (op == 2) printf("Crocodilo\n");
         if (op == 3) printf("Cobra\n");
+        printf("----------------\n");
         break;
     default:
+        printf("----------------\n");
         printf("Classe desconhecida\n");
+        printf("----------------\n");
         return 1;
     }
     
