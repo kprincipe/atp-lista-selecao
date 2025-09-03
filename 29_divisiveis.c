@@ -22,14 +22,16 @@ int main(void) {
     printf("--------------------\n");
     if (a % 3 == 0) printf("%d ", a);
     if (b % 3 == 0) printf("%d ", b);
-    if (b % 3 == 0) printf("%d ", c);
+    if (c % 3 == 0) printf("%d ", c);
+    if (d % 3 == 0) printf("%d ", d);
     printf("\n");
     printf("--------------------\n");
     printf("Divisiveis por 3: \n");
     printf("--------------------\n");
     if (a % 2 == 0) printf("%d ", a);
     if (b % 2 == 0) printf("%d ", b);
-    if (b % 2 == 0) printf("%d ", c);
+    if (c % 2 == 0) printf("%d ", c);
+    if (d % 2 == 0) printf("%d ", d);
     printf("\n");
     printf("--------------------\n");
     
