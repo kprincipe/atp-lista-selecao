@@ -15,7 +15,7 @@ int main(void) {
     scanf("%d", &c);
 
     // processamento e saida
-    if ((a + b) > c || (a + c) > b || (b + c) > a) {
+    if ((a + b) > c && (a + c) > b && (b + c) > a) {
         printf("\n");
         printf("------------------------\n");
         if (a == b && c != a || a == c && b != a || b == c && a != b) {
